@@ -1,16 +1,15 @@
 # DAY 1 INTRODUCTION TO PYTHON...
 
 # Printing Our Name in Telugu
-print(chr(3105)+chr(3135) + " ."+chr(3128)+" " +
-      chr(3108)+chr(3135)+" "+chr(3127)+chr(3149))
+print(chr(3105)+chr(3135) + " ."+chr(3128)+" "+chr(3108)+chr(3135)+" "+chr(3127)+chr(3149))
 
 
 # 1num = 55  '''Not start with number and any special character expect:"_" (underscore)''
 # print(1num)
 
-'''Data type'''
 
-# Numarics
+'''Data type'''
+# Numarics:
 num1 = 55
 print(num1)
 print(type(num1))
@@ -19,11 +18,13 @@ _num2 = 54.59
 print(_num2)
 print(type(_num2))
 
-# Complex numbers
+
+# Complex numbers:
 num3 = 43+5j
 print(type(num3))
 
-# Boolens
+
+# Boolens:
 num4 = True
 print(type(num4))
 
@@ -36,21 +37,23 @@ print(Bool1)
 Bool2 = bool(0)
 print(Bool2)
 
-# String
+
+# String:
 num6 = "Satish"
 print(type(num6))
 
-# List
+
+# List:
 num7 = [[1, 2, 3], [4, 5, 6]]
 print(type(num7))
 
-# Tuple
+
+# Tuple:
 num8 = (1, 2, 3)
 print(type(num8))
 
 
 '''Type Convertion'''
-
 # Float -> Int
 num9 = int(35.4)
 print(num9)
@@ -81,23 +84,27 @@ print(num13)
 
 
 # Ardhamatic Operators
-# "+" --> Addition
-# "-" --> Subraction
-# "/" --> Division returns Qocent  Float
-# "//" --> Division return coqucent Integer (Floor Division)
-# "%" --> Division returns reminder
+      # "+" --> Addition
+      # "-" --> Subraction
+      # "/" --> Division returns Qocent  Float
+      # "//" --> Division return coqucent Integer (Floor Division)
+      # "%" --> Division returns reminder
+
 
 # Q1
 print("Kumar having :", (75/2)+(37.5/2))
 print("Sam having :", 37.5/2)
 
+
 # Q2
 print(((3*36.32)+56.19)-10)
+
 
 # Q3 Multiplycation of one +ve no. with _ve float no.
 positive = int(input())
 negative = -float(input())
 print(positive*negative)
+
 
 # Q4
 F1 = float(input())
@@ -105,15 +112,18 @@ F2 = float(input())
 F3 = float(input())
 print(F1+F2+F3)
 
+
 # Q5
 print(F1/F2)
 
 
 # Comparisions Operator
-# == --> equls to
-# != --> not equls to
-# >  --> grater than
-# <  --> less than
+      # == --> equls to
+      # != --> not equls to
+      # >  --> grater than
+      # >  --> grater than
+      # <  --> less than
+      # <  --> less than
 
 print(10 == 10)  # True
 print(10 != 2)  # True
@@ -124,9 +134,9 @@ print(10 < 2)  # False
 
 
 # Logical Operators
-# and --> return "True" if both conditions are true
-# or --> return "True" if any one condition is true
-# not --> return oppsite boolen
+      # and --> return "True" if both conditions are true
+      # or --> return "True" if any one condition is true
+      # not --> return oppsite boolen
 
 print(10 > 1 and 3 < 4)  # True
 print(10 < 20 and 20 > 10)  # True
@@ -147,6 +157,7 @@ print(b)
 Sum = a+b
 print(a, "+", b, "=", Sum)
 
+
 # using split function
 A, B = input("Enter A,B values").split(",")
 print(A)
@@ -156,7 +167,7 @@ print(Sum1)
 
 
 # --> Change three integer no. three float no. and two string and one complex no.
-# Note: use formated input.!
+      # Note: use formated input.!
 
 Num1 = int(input("Enter first Integer :"))
 Num2 = int(input("Enter second Integer :"))
@@ -191,7 +202,6 @@ b = 5
 print("Vales before Swaping")
 print(a)
 print(b)
-
 temp = a  # temp=10
 a = b  # a=5
 b = temp  # b=10
@@ -199,13 +209,13 @@ print("After Swaping")
 print("a value after swaping is:", a)
 print("b value after swaping is:", b)
 
+
 # --> Swaping without temp value
 a = 10
 b = 5
 print("Vales before Swaping")
 print(a)
 print(b)
-
 a = a+b  # a=15
 b = a-b  # b=
 a = a-b  #
