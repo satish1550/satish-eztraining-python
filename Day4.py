@@ -70,3 +70,56 @@ print(s.find("z"))
 print(s.find("a",6,len(s)))
 print(s.index("a"))
 print(s.index("a",6,len(s)))
+
+
+'''Mutable and Immutable'''
+# Mutable -->can be change after creation
+    # --->list, set, dict
+# Mutable -->can't be change after creation
+    # --->int, float, str, bool, tuple
+    
+a = 10
+print(a)
+print(id(a))
+a = 20
+print(id(a))
+print(a)
+
+
+# get one string as a input along with no. find out and display weather it is present in string or not?
+# string = input("Enter your String: ")
+# i = input("Enter any element: ")
+# if i in string:
+#     print("Present")
+# else:
+#     print("Not Present")
+
+
+# check given string is palandron or not?
+# string = input("Enter you Stering: ")
+# if string==string:
+#         print("Palnodram")
+# else:
+#     print("not")
+
+
+# After get a string as ainput check your string as space or not. if true print no. spaces in string
+# s = input("Enter your string: ")
+# count = 0
+# for i in s:
+#       if i == " ":
+#             count +=1
+# print(count) 
+
+
+# create a list with ovels get one string as a input count ovels in the string
+ovels = ['a', 'e', 'i', 'o', 'u']
+count = 0
+listOfOvels = []
+s = input("Enter your string: ")
+for i in s:
+    if i in ovels:
+        listOfOvels.append(i)
+        count+=1
+print(listOfOvels)
+print(count)

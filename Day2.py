@@ -6,6 +6,7 @@
     # Like - Compressing Data
     # sending Data in network to network
 
+
 print(12&4)
 print(12|4)
 print(~12)
@@ -14,8 +15,8 @@ print(2<<3)
 print(2>>3)
 print(2^3)
 
-# get any two number both no. should be lessthan or equal to 15 perform &, | and ~
 
+# get any two number both no. should be lessthan or equal to 15 perform &, | and ~
 n1, n2 = int(input("Enter n1 value: ")), int(input("Enter n2 value: "))
 print(n1&n2)
 print(n1|n2)
@@ -40,6 +41,7 @@ print(product)
 print("it's", "a", "good", "day",end=" **|** ", sep="##")
 print("all", "is", "good")
 
+
 # Fillied upside down Triangle
 print("*******")
 print(" ***** ")
@@ -48,6 +50,7 @@ print("   *   ")
 
 
 # Hallow Hart
+
 
 
 # Frog
@@ -63,6 +66,7 @@ print("      *         *      ")
 print("       *       *        ")
 print("   **      *      **   ")
 print(" **                 **   ")
+
 
 
 # Get a number as input and find out wether it is a 500 or not
@@ -119,6 +123,7 @@ elif (n1 < n2):
 
 else:
     print(n2, 'is greater than', n1, "and", n3)
+
 
 ''' # Check given no. is divisible by 11 or not
 
