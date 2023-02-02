@@ -1,7 +1,8 @@
 # DAY 1 INTRODUCTION TO PYTHON...
 
-# Printing Our Name in Telugu
-print(chr(3105)+chr(3135) + " ."+chr(3128)+" "+chr(3108)+chr(3135)+" "+chr(3127)+chr(3149))
+# Printing Our Name in Telugu!!!
+print(chr(3105)+chr(3135) + " ."+chr(3128)+" "+chr(3108) +
+      chr(3135)+" "+chr(3127)+chr(3149))  # డి .స తి ష్
 
 
 # 1num = 55  '''Not start with number and any special character expect:"_" (underscore)''
@@ -84,12 +85,11 @@ print(num13)
 
 
 # Ardhamatic Operators
-      # "+" --> Addition
-      # "-" --> Subraction
-      # "/" --> Division returns Qocent  Float
-      # "//" --> Division return coqucent Integer (Floor Division)
-      # "%" --> Division returns reminder
-
+# "+" --> Addition
+# "-" --> Subraction
+# "/" --> Division returns Qocent  Float
+# "//" --> Division return coqucent Integer (Floor Division)
+# "%" --> Division returns reminder
 
 # Q1
 print("Kumar having :", (75/2)+(37.5/2))
@@ -118,12 +118,12 @@ print(F1/F2)
 
 
 # Comparisions Operator
-      # == --> equls to
-      # != --> not equls to
-      # >  --> grater than
-      # >  --> grater than
-      # <  --> less than
-      # <  --> less than
+# == --> equls to
+# != --> not equls to
+# >  --> grater than
+# >  --> grater than
+# <  --> less than
+# <  --> less than
 
 print(10 == 10)  # True
 print(10 != 2)  # True
@@ -134,9 +134,9 @@ print(10 < 2)  # False
 
 
 # Logical Operators
-      # and --> return "True" if both conditions are true
-      # or --> return "True" if any one condition is true
-      # not --> return oppsite boolen
+# and --> return "True" if both conditions are true
+# or --> return "True" if any one condition is true
+# not --> return oppsite boolen
 
 print(10 > 1 and 3 < 4)  # True
 print(10 < 20 and 20 > 10)  # True
@@ -167,7 +167,7 @@ print(Sum1)
 
 
 # --> Change three integer no. three float no. and two string and one complex no.
-      # Note: use formated input.!
+# Note: use formated input.!
 
 Num1 = int(input("Enter first Integer :"))
 Num2 = int(input("Enter second Integer :"))
