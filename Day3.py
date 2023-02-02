@@ -13,17 +13,17 @@ print(l[::-1])  # we can get list in reverse order
 
 
 # Functios
-# append() --> add an element to the end of the list
-# extend() --> add all orther elements of a list to end of the list
-# insert() --> add an element at perticular idex it have two orguments(index, value)
-# remove() --> remove an element by value it self
-# pop()    --> remove and return an element by index
-# clear()  --> remove all elements from list
-# index()  --> return value using index value
-# count()  --> return nunber the
-# sort()   --> return list in asconding order
-# reverse()--> return list in reverse order
-# copy()   --> copy the list to another varible
+    # append() --> add an element to the end of the list
+    # extend() --> add all orther elements of a list to end of the list
+    # insert() --> add an element at perticular idex it have two orguments(index, value)
+    # remove() --> remove an element by value it self
+    # pop()    --> remove and return an element by index
+    # clear()  --> remove all elements from list
+    # index()  --> return value using index value
+    # count()  --> return nunber the
+    # sort()   --> return list in asconding order
+    # reverse()--> return list in reverse order
+    # copy()   --> copy the list to another varible
 
 l = [1, 2, 3, 5.5, 8.3, "Satish"]
 l.append("Daraboina")
@@ -113,15 +113,15 @@ print(l)
 # not allowed duplection and denotes by '{}' brackets
 
 # Functions:
-# add    --> add an element
-# update --> add list lo elements at random position
-# discard--> remove an element
-# remove --> remove an element also return error if element is not present in set
+    # add    --> add an element
+    # update --> add list lo elements at random position
+    # discard--> remove an element
+    # remove --> remove an element also return error if element is not present in set
 
 # Operations:
-# | (or) union()      --> combain both sets and remove repeted values
-# & (or) intersection --> return common valuse to left side set
-# - (or) difference   --> return distent velues
+    # | (or) union()      --> combain both sets and remove repeted values
+    # & (or) intersection --> return common valuse to left side set
+    # - (or) difference   --> return distent velues
 
 s = {1, 2, 3, 4, 5, 6}
 s.add(9)
@@ -160,13 +160,13 @@ print(t.index(5))
 #  Dictionary contains with two units (keys and values) key must me uniqe
 
 # Functions:
-# keys       --> return key values of dict
-# values     --> return values of dict
-# items      --> return each (key and value) item simply return all pairs
-# update     --> add one more iteam # .update({'d':55})
-# pop        --> fetch and remove an item
-# popitem    --> fetch and remove recently added item
-# setdefault --> if key is not in dict - will be added or nothing will be done
+    # keys       --> return key values of dict
+    # values     --> return values of dict
+    # items      --> return each (key and value) item simply return all pairs
+    # update     --> add one more iteam # .update({'d':55})
+    # pop        --> fetch and remove an item
+    # popitem    --> fetch and remove recently added item
+    # setdefault --> if key is not in dict - will be added or nothing will be done
 
 dict = {1: "one", 2: "two"}
 print(type(dict))
