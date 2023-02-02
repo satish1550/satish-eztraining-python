@@ -84,12 +84,12 @@ num13 = id(55)
 print(num13)
 
 
-# Ardhamatic Operators
-# "+" --> Addition
-# "-" --> Subraction
-# "/" --> Division returns Qocent  Float
-# "//" --> Division return coqucent Integer (Floor Division)
-# "%" --> Division returns reminder
+# Ardhamatic Operators:
+      # "+" --> Addition
+      # "-" --> Subraction
+      # "/" --> Division returns Qocent  Float
+      # "//" --> Division return coqucent Integer (Floor Division)
+      # "%" --> Division returns reminder
 
 # Q1
 print("Kumar having :", (75/2)+(37.5/2))
@@ -118,12 +118,12 @@ print(F1/F2)
 
 
 # Comparisions Operator
-# == --> equls to
-# != --> not equls to
-# >  --> grater than
-# >  --> grater than
-# <  --> less than
-# <  --> less than
+      # == --> equls to
+      # != --> not equls to
+      # >  --> grater than
+      # >=  --> grater than or equal
+      # <  --> less than
+      # <=  --> less than or equal
 
 print(10 == 10)  # True
 print(10 != 2)  # True
@@ -134,9 +134,9 @@ print(10 < 2)  # False
 
 
 # Logical Operators
-# and --> return "True" if both conditions are true
-# or --> return "True" if any one condition is true
-# not --> return oppsite boolen
+      # and --> return "True" if both conditions are true
+      # or --> return "True" if any one condition is true
+      # not --> return oppsite boolen
 
 print(10 > 1 and 3 < 4)  # True
 print(10 < 20 and 20 > 10)  # True
