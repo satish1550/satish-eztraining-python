@@ -1,5 +1,6 @@
 # DAY 2
 
+
 # Bitwase Oprators
     # 0's and and 1's
     # Some oprations if you do like dz t will faster
@@ -15,6 +16,7 @@ print(2>>3)
 print(2^3)
 
 
+
 # get any two number both no. should be lessthan or equal to 15 perform &, | and ~. ?
 n1, n2 = int(input("Enter n1 value: ")), int(input("Enter n2 value: "))
 print(n1&n2)
@@ -22,10 +24,12 @@ print(n1|n2)
 print(n1^n2)
 
 
+
 # Taking multiple inputs!!
 n=int(input("Enter Size: "))
 l=list(map(str,input("Enter Data: ").split()))[0:1:n]
 print(l)
+
 
 
 # Find product of ten integers?
@@ -58,12 +62,14 @@ print("       *   *       ")
 print("         *         ")
 
 
+
 # Get a number as input and find out wether it is a 500 or not?
 Num1 = int(input('Enter any number: '))
 if (Num1 == 500):
     print("Your value is ", Num1)
 else:
     print("Your value is is", Num1, "not 500..")
+
 
 
 # Check given no. is "Even-Positive" or "Odd-Positive" "Even-Negative" or "Odd-Negative"?
@@ -79,12 +85,14 @@ else:
     print("You enter an 'Odd-Negative' Number")
 
 
+
 # Get two no. as input and find out bigger one?
 n1,n2 = int(input("Enter n1 value: ")), int(input("Enter n2 value: "))
 if(n1>n2):
     print(n1,"is larger than",n2)
 else:
     print(n2,"is larger than",n1)
+
 
 
 # Check given no. is Float or Integer?
@@ -95,6 +103,7 @@ if(res>0 or res!=0):
     print("Float")
 else:
     print("Int")
+
 
 
 # Get three no. as input and find out gratest no. among those no.?
@@ -114,12 +123,14 @@ else:
     print(n2, 'is greater than', n1, "and", n3)
 
 
+
 # Check given no. is divisible by 11 or not?
 n = int(input("Enter n value: "))
 if (n % 11 == 0):
     print(n, "is divisible by 11.")
 else:
     print(n, "is not divisible by 11.")
+
 
 
 # Check given no. is divisible by both 2 and 5?
@@ -142,6 +153,7 @@ elif(n % 2 == 0):
 else:
     print(n, "is not divisible bt 5.")
 
+
 # Weahter conditions:
 t = int(input('Enter temp: '))
 if (t >= 45):
@@ -156,12 +168,14 @@ else:
     print("Chill")
 
 
+
 '''# while'''
 n = 100
 i = 0
 while i<=n:
     print(i)
     i =i+1
+
 
 
 ''' Number Game'''

@@ -1,7 +1,7 @@
 # DAY 3
 
 
-'''# -->Contant'''
+'''# Contant'''
 # List
 l = [1, 2, 3, 5.5, 8.3, "Satish"]
 print(l)
@@ -37,15 +37,19 @@ print(l)
 l.pop(2)
 print(l)
 
+
+
 # Creat a list of 10 elements print elemnts one by one?
 l = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 # Method 1:
 for i in range(len(l)):
     print(l[i])
 
+
 # Method 2:(using membership operator)
 for i in l:
     print(i)
+
 
 
 # Create a list 5 float no. find Sum and Average?
@@ -64,6 +68,7 @@ average = sum/len(l)
 print(average)
 
 
+
 # after ceating list with 6 elements from the user extract only even numbers?
 size = int(input("Enter size:"))
 list = []
@@ -75,6 +80,7 @@ for i in range(size):
 for i in list:
     if (i % 2 == 0):
         print("Even number in list:", i)
+
 
 
 # Get list of no's as input and return their product, if product is less than 750 else return sum?
@@ -89,6 +95,7 @@ if (product <= 750):
     print("Product of elemets", product)
 else:
     print("Sum of elemets", sum)
+
 
 
 '''# List Compransion'''
@@ -107,6 +114,7 @@ print(city)
 # Mathod 3:
 l = [2**x for x in range(1, 10)]
 print(l)
+
 
 
 '''# Set'''
@@ -135,6 +143,7 @@ s.remove(3)
 print(s)  # return error
 
 
+
 s1 = {1, 2, 3}
 s2 = {4, 5, 6, 1, 2}
 print(s1.union(s2))
@@ -147,6 +156,7 @@ print(s1.difference(s2))
 print(s1-s2)
 
 
+
 '''Tuple'''
 # can't manupulicate the function
 
@@ -155,6 +165,8 @@ print(type(t))
 print(t.count(2))
 # for duplecate values 'index()' return first occurance value.
 print(t.index(5))
+
+
 
 '''# Dictionary'''
 #  Dictionary contains with two units (keys and values) key must me uniqe
@@ -183,6 +195,7 @@ dict.setdefault(4, "four")
 print(dict)
 dict.setdefault(1, "four")
 print(dict)
+
 
 
 # type conversion list --> dict
