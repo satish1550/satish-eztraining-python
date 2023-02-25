@@ -1,3 +1,5 @@
+'''Quiz Game'''
+
 q1 = """Who won 2011 cricket world cup?
 a.Australia
 b.India
