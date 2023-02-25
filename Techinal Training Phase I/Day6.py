@@ -47,14 +47,14 @@ else:
 '''OOPs'''
     # Object Oriented Programming(OOPs)
     # It's an effienct concept use all program
-    # For multepul reasons we use opps concept for example Code Reusability, Data Scurity and aData Hyding
+    # For multepul reasons we use opps concept for example Code Reusability, Data Scurity and Data Hyding
 
     # '''CLASS'''
         # it an 
     # '''OBJECT'''
-        # it's a thing baced an class
+        # it's a thing based on class
 
-    # NOTE: One class has a multiple as objects
+    # NOTE: One class has a multiple objects
 
     # Example 1:
         # class: Birds
