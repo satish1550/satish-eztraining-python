@@ -1,4 +1,4 @@
-# DAY 1
+# DAY 1 
 
 
 '''Lambda Function'''
