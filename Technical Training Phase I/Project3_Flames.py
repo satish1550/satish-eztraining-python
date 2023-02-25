@@ -1,3 +1,5 @@
+'''Flames Game'''
+
 name1 = input("Enter the name 1:").lower()
 name2 = input("Enter the name 2:").lower()
 #If you give spaces in between first and last name
