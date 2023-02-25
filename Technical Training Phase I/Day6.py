@@ -1,4 +1,4 @@
-# DAY 6
+# DAY 6 
 
 
 '''Exception'''
