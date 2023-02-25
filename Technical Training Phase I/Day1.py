@@ -1,4 +1,4 @@
-# DAY 1 INTRODUCTION TO PYTHON..
+# DAY 1 INTRODUCTION TO PYTHON...
 
 
 # Printing Our Name in Telugu!!!
