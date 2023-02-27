@@ -148,10 +148,10 @@ n3 = Node(40)
 n2.next = n3
 n4 = Node(50)
 n3.next = n4
-print("List before insertig 10 at begining")
+print("List before inserting 10 at begining")
 obj.display()
 print("")
-print("List after insertig 10 at begining")
+print("List after inserting 10 at begining")
 obj.insert_begining(10)
 obj.display()
 
@@ -192,10 +192,10 @@ n3 = Node(30)
 n2.next = n3
 n4 = Node(40)
 n3.next = n4
-print("List before insertig 50 at end")
+print("List before inserting 50 at end")
 obj.display()
 print("")
-print("List after insertig 50 at end")
+print("List after inserting 50 at end")
 obj.insert_end(50)
 obj.display()
 
@@ -238,9 +238,9 @@ n3 = Node(40)
 n2.next = n3
 n4 = Node(50)
 n3.next = n4
-print("List before insertig 30 at index 2")
+print("List before inserting 30 at index 2")
 obj.display()
 print("")
-print("List after insertig 30 at index 2")
+print("List after inserting 30 at index 2")
 obj.insert_position(2, 30)
 obj.display()
