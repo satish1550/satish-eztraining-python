@@ -217,28 +217,68 @@ o6.c2Display()
 o6.s2Display()
 
 
+# Happy number
+def happy(n):
+    s=r=0
+    while (n>=0):
+        for i in range(0,len(str(n))+1):
+            r = n%10
+            s = s+r**2
+            n = n//10
+        return s
+n = int(input("Enter a number:"))
+res = n
+while (res!=1 and res!=4):
+    res = happy(res)
+if res ==1:
+    print("Happy number")
+else:print("Not a happy number")
 
 
-'''Encapsulation'''
-# protected
 
 
-
-# Privaate 
+'''Encapsulation''' 
+# Encapsulation-public
 class encap:
-    __a = 10
-    def encapFunction(self):
-        print("EncapFunction")
-        print(self.__a)
-object = encap()
-object.encapFunction()
+    a = 10
+    print(a)
+    def encapfunction(self):
+        print("Encap function") 
+
+
+
+# Encapsulation-protected
+class encap:
+     __a = 10
+     print(__a)
+     def encapfunction(self):
+         print("Encap function")
+         print(self.__a)
+obj = encap()
+obj.encapfunction()
+print(obj.__a)#will throw error because a is private and cant be accesed outside class 
+
+
+
+# Encapsulation-private
+class encap:
+    _a = 10
+    c = 20
+
+    def encapfunction(self):
+        _b = 200
+        print("Encap function-accessing protected")
+        print(self._a+10)
+obj = encap()
+print(obj._a)
+obj.encapfunction()
+obj.c
+
 
 
 
 '''Polymorphism'''
-
 '''Overloading'''
-
 # Operator overloading
 a = 10
 b = 20
