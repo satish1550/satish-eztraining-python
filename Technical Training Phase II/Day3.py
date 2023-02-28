@@ -82,24 +82,24 @@ if __name__ == "__main__":
     print("")
 
 
-# # Creating own modules
-# import Day2 # Day2 in my another file acting as a module hear
-# Day2.singleLinkedList()
-# print(__name__)
+# Creating own modules
+import Day2 # Day2 in my another file acting as a module hear
+Day2.singleLinkedList()
+print(__name__)
 
-# print("Before Function")
-# def f1():
-#     print("F1")
-# def f2():
-#     print("F2")
-# def f3():
-#     print("F3")
+print("Before Function")
+def f1():
+    print("F1")
+def f2():
+    print("F2")
+def f3():
+    print("F3")
     
-# if __name__ == "__main__":
-#     f1()
-#     f2()
-#     f3()
-# print("Name:", __name__)
+if __name__ == "__main__":
+    f1()
+    f2()
+    f3()
+print("Name:", __name__)
 
 
 '''Double LinkedList'''
